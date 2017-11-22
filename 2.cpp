@@ -10,8 +10,10 @@ int main(){
         unsigned long long int r1, r2,x=2;
         ofstream opt("output.txt", ios::trunc);
         //cin >> x;
-        cout << "Please input the range" << endl;
-        cin >> r1 >> r2;
+        cout << "Please input the range (0 to exit)" << endl;
+        cin >> r1;
+        if(r1==0){return false;}
+        cin >> r2;
         //r1=1;r2=10000000;
         bool n=true;
         int c=0;
@@ -68,6 +70,5 @@ int main(){
         opt <<  c << endl;
         opt.close();
         c=0;
-        return true;
     }
 }
