@@ -11,8 +11,8 @@ int main(){
         ofstream opt("output.txt", ios::trunc);
         //cin >> x;
         cout << "Please input the range" << endl;
-        //cin >> r1 >> r2;
-        r1=1;r2=10000000;
+        cin >> r1 >> r2;
+        //r1=1;r2=10000000;
         bool n=true;
         int c=0;
         cout << "Starting Program:" ;
