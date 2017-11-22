@@ -4,6 +4,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/** Unfinished **/
+
 bool ispwr(unsigned long long int in){
                 bool n=true;
                 int x =log(in);
