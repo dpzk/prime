@@ -40,7 +40,6 @@ int main(){
                     n=false;
                 }
                 //if(!n){cout << "!";}
-                //301.668s/10000000num scaned
             }
             if(n){
                 //cout << "o" ;
